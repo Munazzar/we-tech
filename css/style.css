@@ -1,0 +1,113 @@
+.header-part1 {
+    background-color: #1474a4;
+}
+.header-part1 .navbar-light.bg-light{
+    background-color: #1474a4 !important;
+}
+.header-part1 .navbar-light .navbar-nav .nav-item .nav-link{
+    color: #fff;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 14px;
+}
+.header-part2 {
+    background-color: #176498;
+}
+.header-part2 .header-part2-content {
+    padding: 0;
+    background-color: #176498;
+    margin-bottom: 0;
+    list-style: none;
+    margin-left: 50px;
+}
+.header-part2 .breadcrumb-item {
+    color: #fff;
+    padding: 4px 12px;
+    display: inline-block;
+    font-size: 13px;
+}
+.header-part2 .breadcrumb-item a {
+    color: #fff;
+    font-size: 13px;
+}
+.header-part2 .breadcrumb-item+.breadcrumb-item::before {
+    content: "";
+
+}
+.product-container .product-content{
+    box-shadow: 0px 0px 5px 0px rgba(237,237,237,0.75);
+}
+.product-container .product-content .product-desc {
+    font-size: 14px;
+}
+.btn-view {
+    background-color: #1474a4;
+    color: #fff !important;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.product-container .product-content .product-desc p {
+    margin: 0;
+}
+/*<-- Getstarted popup form --> */
+
+.form-title {
+    background-color: #f5f5f5;
+    border-bottom: 2px solid #eee;
+    padding: 5px 30px;
+}
+.form-footer-con {
+    background-color: #f5f5f5;
+    border-top: 2px solid #eee;
+    padding: 12px 30px;
+}
+.form-footer-con .form-footer-desc a{
+    color: #bbb;
+    font-size: 18px;
+    padding: 10px 30px;
+    font-weight: 400;
+    text-decoration: none;
+}
+.form-footer-desc .getsbtn {
+    background-color: #0036ff;
+    border-radius: 100px;
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 6px 30px;
+    float: right;
+    vertical-align: middle;
+}
+.form-icon {
+    position: absolute;
+    right: 10px;
+    top:50%;
+    transform:translateY(-50%);
+}
+
+#overlay{
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.8);
+    z-index: 2;
+    margin-top:75px;
+    padding:15px 60px 45px 45px;
+    cursor: pointer;
+  }
+  
+  #adobe-dc-view2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    
+    width:60%;
+    height:75%;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+  }
